@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 require_relative '../lib/move.rb'
-
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 print "Welcome to Tic Tac Toe!"
 print "Where would you like to go?"
 position = gets.strip
