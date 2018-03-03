@@ -13,6 +13,7 @@ def input_to_index(input)
   else
     index = input.to_i
   end
+  index
 end
 
 def move(array, index, char = "X")
